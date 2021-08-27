@@ -1,6 +1,5 @@
 from typing import List
 
-
 data = {}
 
 n = int(input())
@@ -11,8 +10,7 @@ for i in range(n):
         try:
             data[msg[4]].append(msg[0])
         except:
-            data.update({msg[4]:[msg[0]]})
-    
+            data.update({msg[4]: [msg[0]]})
 
 # is A and X are sibling
 question = input().split()
@@ -20,8 +18,8 @@ question = input().split()
 isSibling = False
 
 try:
-    parents1:List[str] = data[question[1]]
-    parents2:List[str] = data[question[3]]
+    parents1: List[str] = data[question[1]]
+    parents2: List[str] = data[question[3]]
 
     for i in parents1:
         try:
