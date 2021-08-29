@@ -102,10 +102,10 @@ class HuangJui:
                 self.ResetArea()
         return price_results
 
-    def ResetArea(self):
+    def ResetArea(self) -> None:
         self.temporaryArea = deepcopy(self.area)
 
-    def CheckArea(self):
+    def CheckArea(self) -> bool:
         areaLength = len(self.area[0])
 
         for i in self.area:
@@ -113,7 +113,7 @@ class HuangJui:
                 return False
         return True
 
-    def __init__(self):
+    def __init__(self) -> None:
         while False is not True:
             Input = list(map(int, input().split()))
             if len(Input) == 0: break
