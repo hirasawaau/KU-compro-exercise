@@ -130,13 +130,4 @@ if not huangJui.CheckArea():
 prices = huangJui.ClockWise()
 prices.extend(huangJui.AntiClockWise())
 
-print(min(prices))
-
-
-
-
-
-
-
-
-
+print(f'{min(prices):.2f}')
