@@ -113,21 +113,21 @@ class HuangJui:
                 return False
         return True
 
-    def __init__(self) -> None:
+    def Input(self) -> None:
         while False is not True:
             Input = list(map(int, input().split()))
             if len(Input) == 0: break
 
             self.area.append(Input)
 
+    def __init__(self) -> None:
+        self.Input()
+        if not self.CheckArea():
+            print("Can't Buy")
+            exit()
+        prices = self.ClockWise()
+        prices += self.AntiClockWise()
+
+        print(f'{min(prices):.2f}')
         
-
-
-huangJui = HuangJui()
-if not huangJui.CheckArea():
-    print("Can't Buy")
-    exit()
-prices = huangJui.ClockWise()
-prices.extend(huangJui.AntiClockWise())
-
-print(f'{min(prices):.2f}')
+HuangJui()
