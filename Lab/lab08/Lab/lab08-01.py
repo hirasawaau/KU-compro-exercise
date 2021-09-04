@@ -20,9 +20,6 @@ def readFile(path:str) -> Dict[str,int]:
     
     return data
 
-    
-
-
 fileName = input('File name: ')
 data = readFile(fileName)
 
