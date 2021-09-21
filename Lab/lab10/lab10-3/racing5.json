@@ -1,0 +1,40 @@
+{
+    "racer":[
+        {
+            "name": "Lisa Jenny",
+            "_range": [0,100,200,500,999],
+            "velocity": [150,25,20,10,5],
+            "response": 1000
+        },
+        {
+            "name": "John Denver",
+            "_range": [0,100,200,500,999],
+            "velocity": [150,25,20,10,5],
+            "response": 100000
+        },
+        {
+            "name": "Araya Philips",
+            "_range": [0,100,200,500,999],
+            "velocity": [150,25,20,10,5],
+            "response": 1000
+        },
+        {
+            "name": "Zebra Cat",
+            "_range": [0,500,998],
+            "velocity": [1000,1,0.9],
+            "response": 1000
+        },
+        {
+            "name": "Turtle nazi",
+            "_range": [0,10,150,250,450,750,997,998],
+            "velocity": [1000,130,100,50,25,15,10,1],
+            "response": 1
+        },
+        {
+            "name": "Guitar nazi",
+            "_range": [0,10,130,250,460,790,997,998],
+            "velocity": [1000,120,100,50,25,15,10,1],
+            "response": 10
+        }
+    ]
+}

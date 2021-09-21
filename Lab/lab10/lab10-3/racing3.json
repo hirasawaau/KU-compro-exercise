@@ -1,0 +1,22 @@
+{
+    "racer":[
+        {
+            "name": "Lisa Jenny",
+            "_range": [0,100,200,500],
+            "velocity": [50,25,20,10],
+            "response": 1000
+        },
+        {
+            "name": "John Denver",
+            "_range": [0,100,200,500],
+            "velocity": [50,25,20,10],
+            "response": 100000
+        },
+        {
+            "name": "Araya Philips",
+            "_range": [0,100,200,500],
+            "velocity": [50,25,20,10],
+            "response": 1000
+        }
+    ]
+}

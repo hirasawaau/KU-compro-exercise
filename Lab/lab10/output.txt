@@ -1,0 +1,65 @@
+Blood Start: 100
+Your speed: 3
+Number of monsters: 3
+Monster 1 speed: 1
+Monster 2 speed: 4
+Monster 3 speed: 2
+=========================
+Turn 1
+-------------------------
+- Monster 2 Turn -
+Your HP left 62
+- Your Turn -
+Attack(a) or Heal(h): a
+Monster 2 HP left 23
+- Monster 3 Turn -
+Your HP left 49
+- Monster 1 Turn -
+Your HP left 40
+=========================
+Turn 2
+-------------------------
+- Monster 2 Turn -
+Your HP left 30
+- Your Turn -
+Attack(a) or Heal(h): h
+Your HP left 90
+- Monster 3 Turn -
+Your HP left 78
+- Monster 1 Turn -
+Your HP left 72
+=========================
+Turn 3
+-------------------------
+- Monster 2 Turn -
+Your HP left 56
+- Your Turn -
+Attack(a) or Heal(h): a
+Monster 2 HP left 13
+- Monster 3 Turn -
+Your HP left 55
+- Monster 1 Turn -
+Your HP left 38
+=========================
+Turn 4
+-------------------------
+- Monster 2 Turn -
+Your HP left 36
+- Your Turn -
+Attack(a) or Heal(h): a
+Monster 2 HP left 1
+- Monster 3 Turn -
+Your HP left 23
+- Monster 1 Turn -
+Your HP left 15
+=========================
+Turn 5
+-------------------------
+- Monster 2 Turn -
+Your HP left 8
+- Your Turn -
+Attack(a) or Heal(h): a
+Monster 2 HP left 0
+- Monster 1 Turn -
+Your HP left 0
+You lose and die.(T_T)

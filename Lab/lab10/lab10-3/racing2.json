@@ -1,0 +1,28 @@
+{
+    "racer":[
+        {
+            "name": "A",
+            "_range": [0,10,20,30],
+            "velocity": [20,15,10,5],
+            "response": 100
+        },
+        {
+            "name": "B",
+            "_range": [0,5,20,30],
+            "velocity": [5,2,1,0.5],
+            "response": 10
+        },
+        {
+            "name": "C",
+            "_range": [0,10,20,30],
+            "velocity": [20,15,5,1],
+            "response": 1000
+        },
+        {
+            "name": "D",
+            "_range": [0],
+            "velocity": [15],
+            "response": 100
+        }
+    ]
+}

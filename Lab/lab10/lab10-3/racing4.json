@@ -1,0 +1,10 @@
+{
+    "racer":[
+        {
+            "name": "Lisa Jenny",
+            "_range": [0,100,200,500],
+            "velocity": [50,25,20,10],
+            "response": 1000
+        }
+    ]
+}
